@@ -208,6 +208,11 @@
   .account-section .owl-nav {
     margin-top: 30px;
   }
+  .clients-section .clients-box .clients-logo {
+    position: relative;
+    display: block;
+    padding-right: 10px;
+  }
 }
 
 
@@ -268,10 +273,10 @@
   }
 
   .clients-section .clients-box{
-    display: block;
+    /* display: block; */
     text-align: center;
   }
-
+  
   .tools-section .image-box,
   .apps-section .image-box{
     margin-right: 0px;
@@ -643,7 +648,7 @@
   }
 
   .account-section{
-    padding: 62px 0px 40px 0px;
+    padding: 45px 0px 20px 0px;
   }
   .platform-section .image-box img{
     margin-top: 30px;
@@ -875,7 +880,7 @@
   }
 
   .team-section{
-    padding: 62px 0px;
+    padding: 40px 0px;
     text-align: center;
   }
 
@@ -998,6 +1003,37 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+}
+.clients-section {
+  position: relative;
+  padding: 20px 0px 40px 0px;
+}
+.clients-section .inner-container {
+  padding: 20px 0px 0px 0px;
+}
+.clients-section .clients-box .clients-logo {
+  position: relative;
+  display: block;
+  padding-right: 10px;
+}
+.no-div a {
+  color: #000;
+  line-height: 20px;
+  font-size: 14px;
+}
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 20px 30px;
+}
+.account-block-one {
+  padding-right: 0;
+}
+
+.account-block-one .inner-box .image-box .title-text {
+    position: absolute;
+    bottom: 25px;
+    right: 0px;
 }
 .banner-carousel .content-box {
   position: relative;

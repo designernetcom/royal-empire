@@ -583,3 +583,36 @@
 	
 
 })(window.jQuery);
+
+$(document).ready(function() {
+    // Function to show the popup with animation
+    function showPopup() {
+        var popupBlock = $('#popup-reg');
+        popupBlock.addClass('active');
+    }
+
+    // Function to hide the popup with animation
+    function hidePopup(popupBlock) {
+        popupBlock.css('opacity', '0').find('.popup-content').css('margin-top', '350px');
+        setTimeout(function() {
+            popupBlock.removeClass('active');
+            popupBlock.css('opacity', '').find('.popup-content').css('margin-top', '');
+        }, 600);
+    }
+
+    // Show popup automatically after 3 seconds
+    setTimeout(showPopup,5000); // 3000 milliseconds = 3 seconds
+
+    // Handle fade-out click to hide popup
+    $(document).on('click', '.fade-out', function() {
+        var popupBlock = $(this).closest('.popup');
+        hidePopup(popupBlock);
+    });
+
+    // Handle clicking outside of popup content to hide popup
+    $(document).on('click', function(event) {
+        if ($(event.target).hasClass('popup')) {
+            hidePopup($(event.target));
+        }
+    });
+});
