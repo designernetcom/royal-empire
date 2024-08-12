@@ -1004,6 +1004,14 @@
     justify-content: space-between;
     width: 100%;
 }
+.clients-section .clients-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .clients-section {
   position: relative;
   padding: 20px 0px 40px 0px;
@@ -1014,7 +1022,7 @@
 .clients-section .clients-box .clients-logo {
   position: relative;
   display: block;
-  padding-right: 10px;
+  padding: 10px;
 }
 .no-div a {
   color: #000;

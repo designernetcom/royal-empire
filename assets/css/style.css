@@ -9829,10 +9829,10 @@ div#mCSB_1_container{
   margin-bottom: 43px;
 }
 
-.education-details-content .course-content .video-inner{
+.video-inner{
   position: relative;
   width: 100%;
-  padding: 178px 0px;
+  padding: 160px 0px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -12820,4 +12820,51 @@ form#send .main-btn-rect i {
 .no-div a{
   color: #000;
   line-height: 20px;
+}
+.single-location img {
+  left: 35px;
+  top: 15px;
+  width: 20px;
+}
+.prelat{
+  position: relative;
+}
+.text-box1 {
+  width: 80px;
+  height: 80px;
+    top: 47%;
+    left: 50%;
+    position: absolute;
+    z-index: 111111;
+    
+  background: #fff;
+  border-radius: 50px;
+}
+
+.text-box1 a i{
+  position: absolute;
+    left: 29px;
+    top: 24px;
+    font-size: 30px;
+    color: red;
+}
+
+.boxt h5{
+  text-align: center;
+  padding: 10px 7px;
+  font-size: 23px;
+}
+.fancybox-slide video{
+  width: 50%;
+}
+.cont-box h4{
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.cont-box p{
+  padding: 12px 0px;
+}
+.video-inner img{
+  width: 50px;
 }
